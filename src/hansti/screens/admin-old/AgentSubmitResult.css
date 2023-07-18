@@ -1,0 +1,35 @@
+h2 {
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.info-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+@media (max-width: 767px) {
+  .info-card-container {
+    flex-direction: column;
+  }
+  .info-card-container > * {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.add-result-button {
+  background-color: rgb(132, 36, 170);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+.add-result-button:hover {
+  background-color: #6b52ae;
+}/*# sourceMappingURL=AgentSubmitResult.css.map */
