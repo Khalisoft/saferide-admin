@@ -12,6 +12,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import dotenv from "dotenv";
+import myStyle from "./utils/myStyle";
 
 // if (process.env.NODE_ENV !== 'production') {
 //   const axe = require('react-axe')
@@ -23,7 +24,7 @@ ReactDOM.render(
 	<LoginProvider>
 		<SidebarProvider>
 			<Suspense fallback={<ThemedSuspense />}>
-				<Windmill usePreferences light>
+				<Windmill usePreferences light theme={myStyle}>
 					<QueryClientProvider client={queryClient}>
 						<App />
 						<ReactQueryDevtools />

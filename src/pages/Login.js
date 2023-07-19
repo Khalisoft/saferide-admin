@@ -103,7 +103,7 @@ function Login() {
 							</Label>
 
 							<Button
-								className="mt-4 bg-primary"
+								className="mt-4"
 								block
 								// tag={Link} to="/app"
 								onClick={() => signinFn()}

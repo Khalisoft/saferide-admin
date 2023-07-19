@@ -7,6 +7,8 @@ module.exports = windmill({
 		extend: {
 			colors: {
 				primary: "#02AA02",
+				secondary: "#E8F0FE",
+				complementary: "#DD00DD",
 			},
 			fontFamily: {
 				sans: ["Inter", ...defaultTheme.fontFamily.sans],
