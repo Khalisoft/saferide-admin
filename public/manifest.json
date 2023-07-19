@@ -1,6 +1,6 @@
 {
-  "short_name": "Hantsi System",
-  "name": "Hantsi System",
+  "short_name": "Saferide Admin",
+  "name": "Saferide Admin",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo-white-bg-sq.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo-white-bg-sq.png",
       "type": "image/png",
       "sizes": "512x512"
     }
